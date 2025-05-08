@@ -1,0 +1,9 @@
+LOAD custom.foil
+PANEL
+OPER
+VISC 50000
+ASEQ -5 10 1
+PACC
+polar.dat
+
+QUIT
