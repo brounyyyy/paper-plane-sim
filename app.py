@@ -149,7 +149,7 @@ with st.sidebar:
     W   = st.slider("날개폭  W (m)", 0.10, 0.40, 0.16, 0.01, key="W")
     L   = st.slider("비행길이 L (m)",0.10, 0.60, 0.25, 0.01, key="L")
     φ   = st.slider("앞각 φ", 0,  90, 45, key="front_angle")
-    ψ   = st.slider("뒷각 ψ", -90, 90, 0, key="back_angle")
+    ψ   = st.slider("뒷각 ψ", -180, 90, 0, key="back_angle")
 
     thk = st.slider("종이 두께 t (m)", 0.002, 0.050, 0.020, 0.002, key="thk")
 
